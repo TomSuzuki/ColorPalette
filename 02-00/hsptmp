@@ -1,0 +1,45 @@
+
+	screen 0,640,480
+
+#define global ctype decRGB(%1) %1>>16 & 0xFF,%1>>8 & 0xFF,%1 & 0xFF
+
+#module
+#deffunc boxl int p1,int p2,int p3,int p4
+;四角のみ
+	line p1,p2,p3,p2
+	line p1,p4,p3,p4
+	line p3,p2,p3,p4
+	line p1,p2-1,p1,p4
+	return
+#global
+
+#module
+#deffunc fn_Palette int _x,int _y,str _str,array arr
+	x = _x
+	y = _y
+	color 0
+	font "コーポレート・ロゴＢ",14
+	pos x+6,y+6:mes _str
+	font "コーポレート・ロゴＢ",12
+	foreach(arr)
+		color decRGB(arr(cnt))
+		boxf x+4,y+28+cnt*21,x+24,y+48+cnt*21
+		line x+4,y+48+cnt*21,x+24+64,y+48+cnt*21
+		pos x+28,y+28+cnt*21+4:mes strf("#%06X",arr(cnt))
+	loop
+	dim arr
+	return
+#global
+
+	arr = 0xFF0000,0x00FF00,0x0000FF,0xFF00FF
+	fn_Palette 0,0,"ビビット",arr
+
+	arr = 0xF29C9F,0xE9546B,0xF9D0C5,0xE73275
+	fn_Palette 100,0,"桜",arr
+
+	arr = 0x3E1E00,0x5BAD92,0xF12B00,0x00695B,0x0086AD
+	fn_Palette 200,0,"古墳時代",arr
+
+	arr = 0x005BAA,0x664032,0xE7001D
+	fn_Palette 300,0,"安土桃山",arr
+	

@@ -1,0 +1,35 @@
+#include "a2d.hsp"
+
+#define global ctype decRGB(%1) %1>>16 & 0xFF,%1>>8 & 0xFF,%1 & 0xFF
+
+	screen 0,640,480
+	alCreateImage 0
+
+#module
+#deffunc fn_deg str _str,int _x,int _y,array arr
+	x = _x
+	y = _y-10
+
+	alFont "メイリオ",14,1
+	alTransModeRotateAt 270,x+10,y+100
+	alDrawText _str,x+10,y+100
+
+	x = x + 30
+	foreach(arr)
+		alTransModeRotateAt 0,0,0
+		color decRGB(arr(cnt))
+		alColor ginfo_r,ginfo_g,ginfo_b,255
+		PtArr = x+15,y+25+cnt*20,x+25,y+35+cnt*20,x+15,y+45+cnt*20,x+5,y+35+cnt*20
+		alFillPoly PtArr,4
+		alFont "メイリオ",12
+		alTransModeRotateAt 45,x+30,y+cnt*20+35
+		alDrawText strf("#%06X",arr(cnt)),x+30,y+cnt*20+35
+	loop
+	return
+#global
+
+	arr = 0x00558F,0x932E40,0xE73275,0xEB9793,0x008E74
+	fn_deg "明治時代",0,0,arr
+	
+	alCopyImageToScreen 0,0
+	redraw 1
