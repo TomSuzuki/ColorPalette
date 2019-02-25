@@ -1,7 +1,7 @@
 
-	screen 0,640,480
-
 #define global ctype decRGB(%1) %1>>16 & 0xFF,%1>>8 & 0xFF,%1 & 0xFF
+#define global ctype kyori(%1,%2,%3,%4) sqrt(((%1)-(%3))*((%1)-(%3))+((%2)-(%4))*((%2)-(%4)))
+#define global ctype kyori3(%1,%2,%3,%4,%5,%6) sqrt(((%1)-(%4))*((%1)-(%4))+((%2)-(%5))*((%2)-(%5))+((%3)-(%6))*((%3)-(%6)))
 
 #module
 #deffunc boxl int p1,int p2,int p3,int p4
@@ -10,6 +10,22 @@
 	line p1,p4,p3,p4
 	line p3,p2,p3,p4
 	line p1,p2-1,p1,p4
+	return
+#deffunc cmes str p1,int p2
+	cx=ginfo_cx
+	cy=ginfo_cy
+	r=ginfo_r
+	b=ginfo_b
+	g=ginfo_g
+	color 0
+	repeat 3
+		x=cnt*p2-p2
+		repeat 3
+			y=cnt*p2-p2
+			pos x+cx,y+cy:mes p1
+		loop
+	loop
+	color r,g,b:pos cx,cy:mes p1
 	return
 #global
 
@@ -26,20 +42,39 @@
 		boxf x+4,y+28+cnt*21,x+24,y+48+cnt*21
 		line x+4,y+48+cnt*21,x+24+64,y+48+cnt*21
 		pos x+28,y+28+cnt*21+4:mes strf("#%06X",arr(cnt))
+		if(kyori3(255,255,255,ginfo_r,ginfo_g,ginfo_b) <= 128){
+			color
+			boxl x+4,y+28+cnt*21,x+24,y+48+cnt*21
+			color decRGB(arr(cnt))
+			pos x+28,y+28+cnt*21+4:cmes strf("#%06X",arr(cnt)),1
+		}
 	loop
 	dim arr
 	return
 #global
 
+	screen 0,720,480
+	
+	color decRGB(0xf5f5f5):boxf
+
 	arr = 0xFF0000,0x00FF00,0x0000FF,0xFF00FF
-	fn_Palette 0,0,"ビビット",arr
+	fn_Palette 000,0,"ビビット",arr
 
 	arr = 0xF29C9F,0xE9546B,0xF9D0C5,0xE73275
-	fn_Palette 100,0,"桜",arr
+	fn_Palette 120,0,"桜",arr
 
 	arr = 0x3E1E00,0x5BAD92,0xF12B00,0x00695B,0x0086AD
-	fn_Palette 200,0,"古墳時代",arr
+	fn_Palette 240,0,"古墳時代",arr
 
 	arr = 0x005BAA,0x664032,0xE7001D
-	fn_Palette 300,0,"安土桃山",arr
+	fn_Palette 360,0,"安土桃山",arr
+
+	arr = 0x480D43,0xC92E36,0xCC5229,0x90326D,0xECDF28
+	fn_Palette 480,0,"ベリー",arr
+
+	arr = 0xECE038,0x9FBB00,0xF3A696,0x008E74,0x0086A2,0xC9396D
+	fn_Palette 600,0,"鳥",arr
+
+	arr = 0x887B3E,0x6846A5,0x932E40,0x008D56,0x8EC298
+	fn_Palette 000,240,"江戸",arr
 	
