@@ -42,39 +42,79 @@
 		boxf x+4,y+28+cnt*21,x+24,y+48+cnt*21
 		line x+4,y+48+cnt*21,x+24+64,y+48+cnt*21
 		pos x+28,y+28+cnt*21+4:mes strf("#%06X",arr(cnt))
-		if(kyori3(255,255,255,ginfo_r,ginfo_g,ginfo_b) <= 128){
+		/*if(kyori3(255,255,255,ginfo_r,ginfo_g,ginfo_b) <= 128){
 			color
 			boxl x+4,y+28+cnt*21,x+24,y+48+cnt*21
 			color decRGB(arr(cnt))
 			pos x+28,y+28+cnt*21+4:cmes strf("#%06X",arr(cnt)),1
-		}
+		}*/
 	loop
 	dim arr
 	return
 #global
 
-	screen 0,720,480
+	screen 0,720,520
 	
-	color decRGB(0xf5f5f5):boxf
+	color decRGB(0xCCCCCC):boxf
 
-	arr = 0xFF0000,0x00FF00,0x0000FF,0xFF00FF
-	fn_Palette 000,0,"ビビット",arr
+	font "Vladimir Script",28,1:color decRGB(0x222222)
+	pos 20,480:mes "Sweets Color Palette Ver 1.00 "
 
-	arr = 0xF29C9F,0xE9546B,0xF9D0C5,0xE73275
-	fn_Palette 120,0,"桜",arr
+	arr = 0xE60033,0xEEEEEE,0xD04F97,0xE6AFCF
+	fn_Palette 000,000,"いちごパフェ",arr
 
-	arr = 0x3E1E00,0x5BAD92,0xF12B00,0x00695B,0x0086AD
-	fn_Palette 240,0,"古墳時代",arr
+	arr = 0x111111,0xEEEEEE,0x6C3524,0x98605E
+	fn_Palette 120,000,"ショコラパフェ",arr
 
-	arr = 0x005BAA,0x664032,0xE7001D
-	fn_Palette 360,0,"安土桃山",arr
+	arr = 0xB28C6E,0xEEEEEE,0xAC6B25,0xE9DACB
+	fn_Palette 240,000,"キャラメルパフェ",arr
 
-	arr = 0x480D43,0xC92E36,0xCC5229,0x90326D,0xECDF28
-	fn_Palette 480,0,"ベリー",arr
+	arr = 0x009944,0xEEEEEE,0x895B8A,0xE6B422
+	fn_Palette 360,000,"抹茶パフェ",arr
 
-	arr = 0xECE038,0x9FBB00,0xF3A696,0x008E74,0x0086A2,0xC9396D
-	fn_Palette 600,0,"鳥",arr
+	arr = 0xdccb18,0xEEEEEE,0x250D00,0xeaeea2
+	fn_Palette 480,000,"バナナパフェ",arr
 
-	arr = 0x887B3E,0x6846A5,0x932E40,0x008D56,0x8EC298
-	fn_Palette 000,240,"江戸",arr
+	arr = 0x7b5544,0xEEEEEE,0x241A08,0x432f2f
+	fn_Palette 600,000,"コーヒゼリーパフェ",arr
+
+	arr = 0x,0x,0xCFDDCA,0xe6bfab
+	fn_Palette 000,160,"アップルパイ",arr
+
+	arr = 0x841a75,0x009944,0xCFDDCA,0xe6bfab
+	fn_Palette 120,160,"ラズベリーパイ",arr
+
+	arr = 0x,0x,0xCFDDCA,0xe6bfab
+	fn_Palette 240,160,"パンプキンパイ",arr
+
+	arr = 0x
+	fn_Palette 360,160,"ショートケーキ",arr
+
+	arr = 0x
+	fn_Palette 480,160,"チーズケーキ",arr
+	
+	arr = 0x
+	fn_Palette 600,160,"ザッハトルテ",arr
+	
+	arr = 0xD7003A,0x2CA9E1,0x287600,0xFFDC00
+	fn_Palette 000,320,"キャンディー",arr
+	
+	arr = 0x7B4741,0xD4DCD6,0xA16D5D,0x7b5544
+	fn_Palette 120,320,"クッキー",arr
+
+	arr = 0xEEBBCB,0xCAD8AC,0xFFEA00,0xd9333f
+	fn_Palette 240,320,"マカロン",arr
+
+	arr = 0xD7CF3A,0x7058A3,0xE60033,0x0095D9
+	fn_Palette 360,320,"グミ",arr
+
+	arr = 0x007bbb,0xd7003a,0x82ae46,0xe6eae3
+	fn_Palette 480,320,"金平糖",arr
+
+	arr = 0x250D00,0xEAE5E3,0x241A08,0x7b5544
+	fn_Palette 600,320,"チョコレート",arr
+
+	
+
+
 	
