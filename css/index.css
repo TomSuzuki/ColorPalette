@@ -1,0 +1,46 @@
+* {
+    font-family: Consolas, 'Courier New', Courier, Monaco, "メイリオ", "游ゴシック", monospace;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "head" "main" "footer";
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    grid-area: head;
+    padding: 1.5em 1em;
+    margin-bottom: 1em;
+    background-color: #111111;
+    color: #EFEFEF;
+}
+
+#head h1 {
+    padding: 0 0 .5em;
+    margin: 0;
+}
+
+#head small {
+    padding-left: 1em;
+}
+
+#main {
+    grid-area: main;
+    margin-bottom: 2em;
+}
+
+#footer {
+    grid-area: footer;
+    padding: 1.5em 1em;
+    background-color: #EFEFEF;
+}
+
+#footer .center {
+    padding: 1em 0 .2em;
+    margin: 0;
+    text-align: center;
+}
