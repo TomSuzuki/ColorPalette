@@ -2,8 +2,6 @@
 window.addEventListener("DOMContentLoaded", function () {
 	loadTextFile("./color.csv", function (result) {
 		csv = convertCSVtoArray(result);
-		console.log("色の数：", csv.length);
-		console.log(csv[0][0], csv[0].length - 1);
 
 		// 一度全部削除
 		let doc_content_box = document.getElementById("main");
@@ -36,9 +34,13 @@ window.addEventListener("DOMContentLoaded", function () {
 
 // textの色を決める関数
 function textColor(c) {
-	//if(c < "#444444") return "#FFFFFF";
-	console.log(c);
-	return "#000000";
+	let r = parseInt("0x" + c.substr(1, 2), 16);
+	let g = parseInt("0x" + c.substr(3, 2), 16);
+	let b = parseInt("0x" + c.substr(5, 2), 16);
+	let bk = Math.sqrt(Math.pow(r - 0, 2) + Math.pow(g - 0, 2) + Math.pow(b - 0, 2));
+	let wh = Math.sqrt(Math.pow(r - 255, 2) + Math.pow(g - 255, 2) + Math.pow(b - 255, 2));
+	if(bk > wh) return "#000000";
+	return "#FFFFFF";
 }
 
 // csvを区切って配列に入れる
