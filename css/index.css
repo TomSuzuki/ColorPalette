@@ -11,6 +11,14 @@ body {
     padding: 0;
 }
 
+ul {
+	padding-bottom: 2em;
+}
+
+li {
+	line-height: 1.5em;
+}
+
 #head {
     grid-area: head;
     padding: 1.5em 1em;
@@ -35,7 +43,7 @@ body {
 
 #footer {
     grid-area: footer;
-    padding: 1.5em 1em;
+    padding: 1.5em 2em;
     background-color: #EFEFEF;
 }
 
