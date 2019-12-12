@@ -25,16 +25,20 @@
 .colorTitle {
 	border-top-left-radius: var(--radius_Color);
 	border-top-right-radius: var(--radius_Color);
-	text-align: center;
 	padding: .9em;
 	font-size: large;
 	border-bottom: 1px solid #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .color {
 	width: 100%;
 	box-sizing: border-box;
 	padding: .4em;
+	display: flex;
+	align-items: center;
 }
 
 .color:last-child{
