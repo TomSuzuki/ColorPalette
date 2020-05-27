@@ -48,6 +48,18 @@
                 "#222222",
                 "#111111"
             ]
+        },
+        {
+            "Name": "WHITE",
+            "KeyColor": "#FFFFFF",
+            "Color": [
+                "#FFFFFF",
+                "#FFFAFA",
+                "#F5F5F5",
+                "#F1F1F1",
+                "#EDEDED",
+                "#E7E7E7"
+            ]
         }
     ],
     "FANTASY": [
@@ -74,11 +86,35 @@
                 "#9933FF",
                 "#9900FF"
             ]
+        },
+        {
+            "Name": "NEON",
+            "KeyColor": "#F84DFB",
+            "Color": [
+                "#F84DFB",
+                "#FEFF02",
+                "#FFF1A4",
+                "#D6F6F3",
+                "#A2FEFB",
+                "#FDFDFF"
+            ]
+        },
+        {
+            "Name": "MARBLE",
+            "KeyColor": "#2FB3FE",
+            "Color": [
+                "#2FB3FE",
+                "#2EFEA8",
+                "#FDEF4E",
+                "#FCB616",
+                "#CE38F9",
+                "#4620A7"
+            ]
         }
     ],
     "COLOR SET": [
         {
-            "Name": "001",
+            "Name": "???? 01",
             "KeyColor": "#137A7F",
             "Color": [
                 "#373B3E",
@@ -99,6 +135,31 @@
                 "#DDDDDD",
                 "#444444",
                 "#111111"
+            ]
+        },
+        {
+            "Name": "MARKER",
+            "KeyColor": "#eef970",
+            "Color": [
+                "#eef970",
+                "#0094d3",
+                "#7FFFD4",
+                "#ffbb5b",
+                "#f767d5",
+                "#bc53b3"
+            ]
+        }
+        ,
+        {
+            "Name": "MARKER-Out of ink",
+            "KeyColor": "#f3f9ac",
+            "Color": [
+                "#f3f9ac",
+                "#7ab8d3",
+                "#c7dbca",
+                "#ffdfb2",
+                "#ed9eed",
+                "#bf95bc"
             ]
         }
     ],
@@ -125,6 +186,18 @@
                 "#FA8E43",
                 "#FC7A02",
                 "#F54700"
+            ]
+        },
+        {
+            "Name": "SEA",
+            "KeyColor": "#004787",
+            "Color": [
+                "#0477A4",
+                "#00659C",
+                "#075E7C",
+                "#004787",
+                "#013088",
+                "#F1FBFD"
             ]
         }
     ]
