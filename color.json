@@ -2,6 +2,7 @@
     "SIMPLE": [
         {
             "Name": "RED",
+            "subName": "赤",
             "KeyColor": "#FF0000",
             "Color": [
                 "#FFAAA8",
@@ -14,6 +15,7 @@
         },
         {
             "Name": "WINE RED",
+            "subName": "ちょっと明るい",
             "KeyColor": "#E5004F",
             "Color": [
                 "#FFC6D7",
@@ -26,9 +28,9 @@
         },
         {
             "Name": "SKY BLUE",
+            "subName": "快晴です",
             "KeyColor": "#0088FF",
             "Color": [
-                "#0088FF",
                 "#38D9FF",
                 "#95CCFF",
                 "#38AAFF",
@@ -39,6 +41,7 @@
         },
         {
             "Name": "GREY",
+            "subName": "白黒",
             "KeyColor": "#777777",
             "Color": [
                 "#EFEFEF",
@@ -51,6 +54,7 @@
         },
         {
             "Name": "WHITE",
+            "subName": "冷蔵庫",
             "KeyColor": "#FFFFFF",
             "Color": [
                 "#FFFFFF",
@@ -65,6 +69,7 @@
     "FANTASY": [
         {
             "Name": "MAGIC",
+            "subName": "魔女のイメージ",
             "KeyColor": "#66CC66",
             "Color": [
                 "#66FF66",
@@ -77,6 +82,7 @@
         },
         {
             "Name": "FANTASY",
+            "subName": "魔法のイメージ",
             "KeyColor": "#99CCFF",
             "Color": [
                 "#99FFFF",
@@ -89,6 +95,7 @@
         },
         {
             "Name": "NEON",
+            "subName": "ネオンカラー",
             "KeyColor": "#F84DFB",
             "Color": [
                 "#F84DFB",
@@ -101,6 +108,7 @@
         },
         {
             "Name": "MARBLE",
+            "subName": "マーブルカラー",
             "KeyColor": "#2FB3FE",
             "Color": [
                 "#2FB3FE",
@@ -115,6 +123,7 @@
     "COLOR SET": [
         {
             "Name": "???? 01",
+            "subName": "誰だろう...",
             "KeyColor": "#137A7F",
             "Color": [
                 "#373B3E",
@@ -127,6 +136,7 @@
         },
         {
             "Name": "SYSTEM",
+            "subName": "機械っぽいイメージ",
             "KeyColor": "#6495ED",
             "Color": [
                 "#6495ED",
@@ -139,6 +149,7 @@
         },
         {
             "Name": "MARKER",
+            "subName": "マーカー",
             "KeyColor": "#eef970",
             "Color": [
                 "#eef970",
@@ -152,6 +163,7 @@
         ,
         {
             "Name": "MARKER-Out of ink",
+            "subName": "インク切れた",
             "KeyColor": "#f3f9ac",
             "Color": [
                 "#f3f9ac",
@@ -166,6 +178,7 @@
     "EARTH": [
         {
             "Name": "AUTUMN",
+            "subName": "秋色",
             "KeyColor": "#CA9144",
             "Color": [
                 "#CA9144",
@@ -178,6 +191,7 @@
         },
         {
             "Name": "MIKAN",
+            "subName": "みかん色",
             "KeyColor": "#FC7A02",
             "Color": [
                 "#B0C715",
@@ -190,6 +204,7 @@
         },
         {
             "Name": "SEA",
+            "subName": "海色",
             "KeyColor": "#004787",
             "Color": [
                 "#0477A4",
@@ -198,6 +213,88 @@
                 "#004787",
                 "#013088",
                 "#F1FBFD"
+            ]
+        },
+        {
+            "Name": "Night view",
+            "subName": "夜景色",
+            "KeyColor": "#010028",
+            "Color": [
+                "#00000D",
+                "#010028",
+                "#000F5A",
+                "#020F5D",
+                "#326495",
+                "#F6FFFF"
+            ]
+        }
+    ],
+    "CITY": [
+        {
+            "Name": "Tokyo @midnight",
+            "subName": "夜も明るい",
+            "KeyColor": "#3B2EA0",
+            "Color": [
+                "#9671A7",
+                "#3B2EA0",
+                "#241D51",
+                "#020F5D",
+                "#EDD478",
+                "#F6FFFF"
+            ]
+        },
+        {
+            "Name": "Hakodate @midnight",
+            "subName": "雪と海がある風景",
+            "KeyColor": "#060E3D",
+            "Color": [
+                "#010005",
+                "#060E3D",
+                "#020B4C",
+                "#1543A3",
+                "#FBF88F",
+                "#FFFDFF"
+            ]
+        },
+        {
+            "Name": "Sapporo @midnight",
+            "subName": "藻岩山から",
+            "KeyColor": "#392F38",
+            "Color": [
+                "#171312",
+                "#392F38",
+                "#3C3137",
+                "#473C42",
+                "#FFF8DE",
+                "#FFFEEE"
+            ]
+        }
+    ],
+    "other": [
+        {
+            "Name": "Yakiniku",
+            "subName": "おなかすいた",
+            "KeyColor": "#650D03",
+            "Color": [
+                "#300500",
+                "#640908",
+                "#650D03",
+                "#B7271F",
+                "#D05603",
+                "#D2B58B"
+            ]
+        },
+        {
+            "Name": "Sushi",
+            "subName": "おなかすいた",
+            "KeyColor": "#FE8125",
+            "Color": [
+                "#FCDEC4",
+                "#FA8679",
+                "#FE8125",
+                "#E03200",
+                "#CC340B",
+                "#BFC762"
             ]
         }
     ]

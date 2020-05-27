@@ -39,12 +39,21 @@
 .colorTitle {
 	border-top-left-radius: var(--radius_Color);
 	border-top-right-radius: var(--radius_Color);
-	padding: .9em;
-	font-size: large;
+	padding: .9em 0em 0em;
+	font-size: medium;
+	font-weight: bold;
 	border-bottom: 1px solid #FFFFFF;
-	display: flex;
-	align-items: center;
+	display: block;
+	text-align: center;
 	justify-content: center;
+}
+
+.colorSubTitle {
+	width: 100%;
+	text-align: center;
+	font-size: x-small;
+	padding: .5em 0 .25em 0;
+	height: 1em;
 }
 
 .color {

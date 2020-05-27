@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 			let categoryTitle = document.createElement("h2");
 			categoryTitle.classList.add("categoryTitle");
-			categoryTitle.textContent = categoryName;
+			categoryTitle.textContent = categoryName.toUpperCase();
 			doc_content_box.appendChild(categoryTitle);
 
 			let categoryColors = document.createElement("div");
@@ -30,6 +30,13 @@ window.addEventListener("DOMContentLoaded", function () {
 				title.style.color = textColor(cols[i]["KeyColor"]);
 				title.textContent = cols[i]["Name"].toUpperCase();
 				frame.appendChild(title);
+
+				let subtitle = document.createElement("div");
+				if (cols[i]["subName"]) subtitle.textContent = cols[i]["subName"];
+				else subtitle.textContent = "";
+				subtitle.classList.add("colorSubTitle");
+				subtitle.style.color = textColor(cols[i]["KeyColor"]);
+				title.appendChild(subtitle);
 
 				for (let k = 0; k < cols[i]["Color"].length; k++) {
 					let col = document.createElement("div");
