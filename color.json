@@ -136,6 +136,31 @@
                 "#444444",
                 "#111111"
             ]
+        },
+        {
+            "Name": "MARKER",
+            "KeyColor": "#eef970",
+            "Color": [
+                "#eef970",
+                "#0094d3",
+                "#7FFFD4",
+                "#ffbb5b",
+                "#f767d5",
+                "#bc53b3"
+            ]
+        }
+        ,
+        {
+            "Name": "MARKER-Out of ink",
+            "KeyColor": "#f3f9ac",
+            "Color": [
+                "#f3f9ac",
+                "#7ab8d3",
+                "#c7dbca",
+                "#ffdfb2",
+                "#ed9eed",
+                "#bf95bc"
+            ]
         }
     ],
     "EARTH": [
@@ -161,6 +186,18 @@
                 "#FA8E43",
                 "#FC7A02",
                 "#F54700"
+            ]
+        },
+        {
+            "Name": "SEA",
+            "KeyColor": "#004787",
+            "Color": [
+                "#0477A4",
+                "#00659C",
+                "#075E7C",
+                "#004787",
+                "#013088",
+                "#F1FBFD"
             ]
         }
     ]

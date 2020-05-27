@@ -27,7 +27,8 @@ window.addEventListener("DOMContentLoaded", function () {
 				let title = document.createElement("div");	// タイトルの追加
 				title.classList.add("colorTitle");
 				title.style.backgroundColor = cols[i]["KeyColor"];
-				title.textContent = cols[i]["Name"];
+				title.style.color = textColor(cols[i]["KeyColor"]);
+				title.textContent = cols[i]["Name"].toUpperCase();
 				frame.appendChild(title);
 
 				for (let k = 0; k < cols[i]["Color"].length; k++) {
@@ -35,7 +36,7 @@ window.addEventListener("DOMContentLoaded", function () {
 					col.classList.add("color");
 					col.style.color = textColor(cols[i]["Color"][k]);
 					col.style.backgroundColor = cols[i]["Color"][k];
-					col.textContent = cols[i]["Color"][k];
+					col.textContent = cols[i]["Color"][k].toUpperCase();
 					frame.appendChild(col);
 				}
 
