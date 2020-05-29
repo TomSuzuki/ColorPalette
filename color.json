@@ -118,6 +118,19 @@
                 "#CE38F9",
                 "#4620A7"
             ]
+        },
+        {
+            "Name": "Hanabi",
+            "subName": "花火",
+            "KeyColor": "#761830",
+            "Color": [
+                "#761830",
+                "#FD3164",
+                "#48FFCF",
+                "#FFD85F",
+                "#5642E2",
+                "#110200"
+            ]
         }
     ],
     "COLOR SET": [
@@ -159,8 +172,7 @@
                 "#f767d5",
                 "#bc53b3"
             ]
-        }
-        ,
+        },
         {
             "Name": "MARKER-Out of ink",
             "subName": "インク切れた",
@@ -175,7 +187,7 @@
             ]
         }
     ],
-    "EARTH": [
+    "season": [
         {
             "Name": "AUTUMN",
             "subName": "秋色",
@@ -190,16 +202,42 @@
             ]
         },
         {
-            "Name": "MIKAN",
-            "subName": "みかん色",
-            "KeyColor": "#FC7A02",
+            "Name": "winter",
+            "subName": "冬色",
+            "KeyColor": "#D5E0F4",
             "Color": [
-                "#B0C715",
-                "#FDC729",
-                "#FFBE30",
-                "#FA8E43",
-                "#FC7A02",
-                "#F54700"
+                "#051E46",
+                "#29689D",
+                "#497EA8",
+                "#D5E0F4",
+                "#DBE6F8",
+                "#E4EAF6"
+            ]
+        },
+        {
+            "Name": "spring",
+            "subName": "春色",
+            "KeyColor": "#EFC8E5",
+            "Color": [
+                "#8BB513",
+                "#6EA605",
+                "#91CBF3",
+                "#F3DA1D",
+                "#EFC8E5",
+                "#BF95BB"
+            ]
+        },
+        {
+            "Name": "summer",
+            "subName": "夏色",
+            "KeyColor": "#126635",
+            "Color": [
+                "#126635",
+                "#4699F9",
+                "#16ACAD",
+                "#B5DA1B",
+                "#76E6E7",
+                "#F0FAFC"
             ]
         },
         {
@@ -270,7 +308,20 @@
             ]
         }
     ],
-    "other": [
+    "food": [
+        {
+            "Name": "MIKAN",
+            "subName": "みかん色",
+            "KeyColor": "#FC7A02",
+            "Color": [
+                "#B0C715",
+                "#FDC729",
+                "#FFBE30",
+                "#FA8E43",
+                "#FC7A02",
+                "#F54700"
+            ]
+        },
         {
             "Name": "Yakiniku",
             "subName": "おなかすいた",
@@ -295,6 +346,60 @@
                 "#E03200",
                 "#CC340B",
                 "#BFC762"
+            ]
+        },
+        {
+            "Name": "Takoyaki",
+            "subName": "おなかすいた",
+            "KeyColor": "#E59D48",
+            "Color": [
+                "#8BA450",
+                "#FBEDD3",
+                "#501300",
+                "#FCC58C",
+                "#E59D48",
+                "#D07C0C"
+            ]
+        },
+        {
+            "Name": "Candy",
+            "subName": "おなかすいた",
+            "KeyColor": "#FF7888",
+            "Color": [
+                "#E2E4D9",
+                "#C4F08E",
+                "#F4E242",
+                "#32DBEE",
+                "#FFA332",
+                "#FF7888"
+            ]
+        }
+    ],
+    "other": [
+        {
+            "Name": "BUG",
+            "subName": "画面がバグりました",
+            "KeyColor": "#014ECE",
+            "Color": [
+                "#014ECE",
+                "#0761F6",
+                "#106C69",
+                "#A2E0F9",
+                "#39F6FC",
+                "#F3FFFF"
+            ]
+        },
+        {
+            "Name": "SNS",
+            "subName": "見たことある色",
+            "KeyColor": "#1DA1F3",
+            "Color": [
+                "#1DA1F3",
+                "#3F5D99",
+                "#00BA01",
+                "#D93470",
+                "#FE0500",
+                "#2D2D2D"
             ]
         }
     ]
