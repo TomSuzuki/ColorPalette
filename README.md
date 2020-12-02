@@ -1,3 +1,5 @@
+![LICENSE:ご自由にどうぞ。](https://img.shields.io/badge/LICENSE-ご自由にどうぞ。-C4F08E.svg?longCache=true)
+
 # ColorPalette
 https://tomsuzuki.github.io/ColorPalette/  
   
