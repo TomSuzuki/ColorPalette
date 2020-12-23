@@ -1,10 +1,10 @@
 {
-    "SIMPLE": [
+    "simple": [
         {
-            "Name": "RED",
-            "subName": "赤",
-            "KeyColor": "#FF0000",
-            "Color": [
+            "name": "RED",
+            "sub_name": "赤",
+            "key_color": "#FF0000",
+            "color": [
                 "#FFAAA8",
                 "#FF7C78",
                 "#FF5555",
@@ -14,10 +14,10 @@
             ]
         },
         {
-            "Name": "WINE RED",
-            "subName": "ちょっと明るい",
-            "KeyColor": "#E5004F",
-            "Color": [
+            "name": "WINE RED",
+            "sub_name": "ちょっと明るい",
+            "key_color": "#E5004F",
+            "color": [
                 "#FFC6D7",
                 "#FF6E88",
                 "#FF4288",
@@ -27,10 +27,10 @@
             ]
         },
         {
-            "Name": "SKY BLUE",
-            "subName": "快晴です",
-            "KeyColor": "#0088FF",
-            "Color": [
+            "name": "SKY BLUE",
+            "sub_name": "快晴です",
+            "key_color": "#0088FF",
+            "color": [
                 "#38D9FF",
                 "#95CCFF",
                 "#38AAFF",
@@ -40,10 +40,10 @@
             ]
         },
         {
-            "Name": "GREY",
-            "subName": "白黒",
-            "KeyColor": "#777777",
-            "Color": [
+            "name": "GREY",
+            "sub_name": "白黒",
+            "key_color": "#777777",
+            "color": [
                 "#EFEFEF",
                 "#CCCCCC",
                 "#777777",
@@ -53,10 +53,10 @@
             ]
         },
         {
-            "Name": "WHITE",
-            "subName": "冷蔵庫",
-            "KeyColor": "#FFFFFF",
-            "Color": [
+            "name": "WHITE",
+            "sub_name": "冷蔵庫",
+            "key_color": "#FFFFFF",
+            "color": [
                 "#FFFFFF",
                 "#FFFAFA",
                 "#F5F5F5",
@@ -66,12 +66,12 @@
             ]
         }
     ],
-    "FANTASY": [
+    "fantasy": [
         {
-            "Name": "MAGIC",
-            "subName": "魔女のイメージ",
-            "KeyColor": "#66CC66",
-            "Color": [
+            "name": "MAGIC",
+            "sub_name": "魔女のイメージ",
+            "key_color": "#66CC66",
+            "color": [
                 "#66FF66",
                 "#66CC66",
                 "#669966",
@@ -81,10 +81,10 @@
             ]
         },
         {
-            "Name": "FANTASY",
-            "subName": "魔法のイメージ",
-            "KeyColor": "#99CCFF",
-            "Color": [
+            "name": "FANTASY",
+            "sub_name": "魔法のイメージ",
+            "key_color": "#99CCFF",
+            "color": [
                 "#99FFFF",
                 "#99CCFF",
                 "#9999FF",
@@ -94,10 +94,10 @@
             ]
         },
         {
-            "Name": "NEON",
-            "subName": "ネオンカラー",
-            "KeyColor": "#F84DFB",
-            "Color": [
+            "name": "NEON",
+            "sub_name": "ネオンカラー",
+            "key_color": "#F84DFB",
+            "color": [
                 "#F84DFB",
                 "#FEFF02",
                 "#FFF1A4",
@@ -107,10 +107,10 @@
             ]
         },
         {
-            "Name": "MARBLE",
-            "subName": "マーブルカラー",
-            "KeyColor": "#2FB3FE",
-            "Color": [
+            "name": "MARBLE",
+            "sub_name": "マーブルカラー",
+            "key_color": "#2FB3FE",
+            "color": [
                 "#2FB3FE",
                 "#2EFEA8",
                 "#FDEF4E",
@@ -120,10 +120,10 @@
             ]
         },
         {
-            "Name": "Hanabi",
-            "subName": "花火",
-            "KeyColor": "#761830",
-            "Color": [
+            "name": "Hanabi",
+            "sub_name": "花火",
+            "key_color": "#761830",
+            "color": [
                 "#761830",
                 "#FD3164",
                 "#48FFCF",
@@ -133,12 +133,12 @@
             ]
         }
     ],
-    "COLOR SET": [
+    "color set": [
         {
-            "Name": "???? 01",
-            "subName": "誰だろう...",
-            "KeyColor": "#137A7F",
-            "Color": [
+            "name": "???? 01",
+            "sub_name": "誰だろう...",
+            "key_color": "#137A7F",
+            "color": [
                 "#373B3E",
                 "#137A7F",
                 "#008899",
@@ -148,10 +148,10 @@
             ]
         },
         {
-            "Name": "SYSTEM",
-            "subName": "機械っぽいイメージ",
-            "KeyColor": "#6495ED",
-            "Color": [
+            "name": "SYSTEM",
+            "sub_name": "機械っぽいイメージ",
+            "key_color": "#6495ED",
+            "color": [
                 "#6495ED",
                 "#6699FF",
                 "#EFEFEF",
@@ -161,10 +161,10 @@
             ]
         },
         {
-            "Name": "MARKER",
-            "subName": "マーカー",
-            "KeyColor": "#eef970",
-            "Color": [
+            "name": "MARKER",
+            "sub_name": "マーカー",
+            "key_color": "#eef970",
+            "color": [
                 "#eef970",
                 "#0094d3",
                 "#7FFFD4",
@@ -174,10 +174,10 @@
             ]
         },
         {
-            "Name": "MARKER-Out of ink",
-            "subName": "インク切れた",
-            "KeyColor": "#f3f9ac",
-            "Color": [
+            "name": "MARKER-Out of ink",
+            "sub_name": "インク切れた",
+            "key_color": "#f3f9ac",
+            "color": [
                 "#f3f9ac",
                 "#7ab8d3",
                 "#c7dbca",
@@ -189,10 +189,10 @@
     ],
     "season": [
         {
-            "Name": "AUTUMN",
-            "subName": "秋色",
-            "KeyColor": "#CA9144",
-            "Color": [
+            "name": "AUTUMN",
+            "sub_name": "秋色",
+            "key_color": "#CA9144",
+            "color": [
                 "#CA9144",
                 "#A47B47",
                 "#68543B",
@@ -202,10 +202,10 @@
             ]
         },
         {
-            "Name": "winter",
-            "subName": "冬色",
-            "KeyColor": "#D5E0F4",
-            "Color": [
+            "name": "winter",
+            "sub_name": "冬色",
+            "key_color": "#D5E0F4",
+            "color": [
                 "#051E46",
                 "#29689D",
                 "#497EA8",
@@ -215,10 +215,10 @@
             ]
         },
         {
-            "Name": "spring",
-            "subName": "春色",
-            "KeyColor": "#EFC8E5",
-            "Color": [
+            "name": "spring",
+            "sub_name": "春色",
+            "key_color": "#EFC8E5",
+            "color": [
                 "#8BB513",
                 "#6EA605",
                 "#91CBF3",
@@ -228,10 +228,10 @@
             ]
         },
         {
-            "Name": "summer",
-            "subName": "夏色",
-            "KeyColor": "#126635",
-            "Color": [
+            "name": "summer",
+            "sub_name": "夏色",
+            "key_color": "#126635",
+            "color": [
                 "#126635",
                 "#4699F9",
                 "#16ACAD",
@@ -241,10 +241,10 @@
             ]
         },
         {
-            "Name": "SEA",
-            "subName": "海色",
-            "KeyColor": "#004787",
-            "Color": [
+            "name": "SEA",
+            "sub_name": "海色",
+            "key_color": "#004787",
+            "color": [
                 "#0477A4",
                 "#00659C",
                 "#075E7C",
@@ -254,10 +254,10 @@
             ]
         },
         {
-            "Name": "Night view",
-            "subName": "夜景色",
-            "KeyColor": "#010028",
-            "Color": [
+            "name": "Night view",
+            "sub_name": "夜景色",
+            "key_color": "#010028",
+            "color": [
                 "#00000D",
                 "#010028",
                 "#000F5A",
@@ -267,12 +267,12 @@
             ]
         }
     ],
-    "CITY": [
+    "city": [
         {
-            "Name": "Tokyo @midnight",
-            "subName": "夜も明るい",
-            "KeyColor": "#3B2EA0",
-            "Color": [
+            "name": "Tokyo @midnight",
+            "sub_name": "夜も明るい",
+            "key_color": "#3B2EA0",
+            "color": [
                 "#9671A7",
                 "#3B2EA0",
                 "#241D51",
@@ -282,10 +282,10 @@
             ]
         },
         {
-            "Name": "Hakodate @midnight",
-            "subName": "雪と海がある風景",
-            "KeyColor": "#060E3D",
-            "Color": [
+            "name": "Hakodate @midnight",
+            "sub_name": "雪と海がある風景",
+            "key_color": "#060E3D",
+            "color": [
                 "#010005",
                 "#060E3D",
                 "#020B4C",
@@ -295,10 +295,10 @@
             ]
         },
         {
-            "Name": "Sapporo @midnight",
-            "subName": "藻岩山から",
-            "KeyColor": "#392F38",
-            "Color": [
+            "name": "Sapporo @midnight",
+            "sub_name": "藻岩山から",
+            "key_color": "#392F38",
+            "color": [
                 "#171312",
                 "#392F38",
                 "#3C3137",
@@ -310,10 +310,10 @@
     ],
     "food": [
         {
-            "Name": "MIKAN",
-            "subName": "みかん色",
-            "KeyColor": "#FC7A02",
-            "Color": [
+            "name": "MIKAN",
+            "sub_name": "みかん色",
+            "key_color": "#FC7A02",
+            "color": [
                 "#B0C715",
                 "#FDC729",
                 "#FFBE30",
@@ -323,10 +323,10 @@
             ]
         },
         {
-            "Name": "Yakiniku",
-            "subName": "おなかすいた",
-            "KeyColor": "#650D03",
-            "Color": [
+            "name": "Yakiniku",
+            "sub_name": "おなかすいた",
+            "key_color": "#650D03",
+            "color": [
                 "#300500",
                 "#640908",
                 "#650D03",
@@ -336,10 +336,10 @@
             ]
         },
         {
-            "Name": "Sushi",
-            "subName": "おなかすいた",
-            "KeyColor": "#FE8125",
-            "Color": [
+            "name": "Sushi",
+            "sub_name": "おなかすいた",
+            "key_color": "#FE8125",
+            "color": [
                 "#FCDEC4",
                 "#FA8679",
                 "#FE8125",
@@ -349,10 +349,10 @@
             ]
         },
         {
-            "Name": "Takoyaki",
-            "subName": "おなかすいた",
-            "KeyColor": "#E59D48",
-            "Color": [
+            "name": "Takoyaki",
+            "sub_name": "おなかすいた",
+            "key_color": "#E59D48",
+            "color": [
                 "#8BA450",
                 "#FBEDD3",
                 "#501300",
@@ -362,10 +362,10 @@
             ]
         },
         {
-            "Name": "Candy",
-            "subName": "おなかすいた",
-            "KeyColor": "#FF7888",
-            "Color": [
+            "name": "Candy",
+            "sub_name": "おなかすいた",
+            "key_color": "#FF7888",
+            "color": [
                 "#E2E4D9",
                 "#C4F08E",
                 "#F4E242",
@@ -377,10 +377,10 @@
     ],
     "other": [
         {
-            "Name": "BUG",
-            "subName": "画面がバグりました",
-            "KeyColor": "#014ECE",
-            "Color": [
+            "name": "BUG",
+            "sub_name": "画面がバグりました",
+            "key_color": "#014ECE",
+            "color": [
                 "#014ECE",
                 "#0761F6",
                 "#106C69",
@@ -390,10 +390,10 @@
             ]
         },
         {
-            "Name": "SNS",
-            "subName": "見たことある色",
-            "KeyColor": "#1DA1F3",
-            "Color": [
+            "name": "SNS",
+            "sub_name": "見たことある色",
+            "key_color": "#1DA1F3",
+            "color": [
                 "#1DA1F3",
                 "#3F5D99",
                 "#00BA01",

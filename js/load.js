@@ -1,4 +1,4 @@
-// テキストファイルのロード
+// laod text file
 function loadTextFile(fName, Callback) {
     var httpObj = createXMLHttpRequest();
     httpObj.onreadystatechange = function () {
@@ -8,4 +8,17 @@ function loadTextFile(fName, Callback) {
     }
     httpObj.open("GET", fName, true);
     httpObj.send(null);
+
+    return
+
+    // create http object
+    function createXMLHttpRequest() {
+        var XMLhttpObject = null;
+        try {
+            XMLhttpObject = new XMLHttpRequest();
+        } catch (e) {
+            return null;
+        }
+        return XMLhttpObject;
+    }
 }
