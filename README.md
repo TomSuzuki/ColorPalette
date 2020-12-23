@@ -1,7 +1,27 @@
-![LICENSE:ご自由にどうぞ。](https://img.shields.io/badge/LICENSE-ご自由にどうぞ。-C4F08E.svg?longCache=true)
+<div align="center">
+  <h2>
+    <a href="https://tomsuzuki.github.io/ColorPalette/">
+      Color Palette
+    </a>
+  </h2>
+ <br>
+  <a href="https://github.com/anuraghazra/github-readme-stats/actions">
+    <img alt="LICENSE" src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" />
+  </a>
+  <a href="https://codeclimate.com/github/TomSuzuki/ColorPalette/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/58df045aefdd61f64d66/maintainability" />
+  </a>
+  <br>
+  <p>
+    色見本です。気に入った色を追加しています。  
+  </p>
+</div>
 
 # ColorPalette
 Link: [https://tomsuzuki.github.io/ColorPalette/](https://tomsuzuki.github.io/ColorPalette/)
   
 ## 色見本  
-色見本です。気に入った色を追加しています。  
+個人的に使う色を置いています。
+
+## ソースコード
+いろんなテストコードを詰め合わせているので可読性は...
