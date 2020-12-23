@@ -78,8 +78,13 @@ function textColor(c) {
 	let r = parseInt("0x" + c.substr(1, 2), 16);
 	let g = parseInt("0x" + c.substr(3, 2), 16);
 	let b = parseInt("0x" + c.substr(5, 2), 16);
-	let bk = Math.sqrt(Math.pow(r - 0, 2) + Math.pow(g - 0, 2) + Math.pow(b - 0, 2));
-	let wh = Math.sqrt(Math.pow(r - 255, 2) + Math.pow(g - 255, 2) + Math.pow(b - 255, 2));
+	let bk = distance3(r, g, b);
+	let wh = distance3(255 - r, 255 - g, 255 - b);
 	if (bk > wh) return "#000000";
 	return "#FFFFFF";
+}
+
+// get distance^2 from (0,0,0)
+function distance3(r, g, b) {
+	return Math.pow(r, 2) + Math.pow(g, 2) + Math.pow(b, 2);
 }
