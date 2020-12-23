@@ -1,10 +1,9 @@
 <div align="center">
-  <h2>
+  <h1>
     <a href="https://tomsuzuki.github.io/ColorPalette/">
       Color Palette
     </a>
-  </h2>
- <br>
+  </h1>
   <a href="https://github.com/anuraghazra/github-readme-stats/actions">
     <img alt="LICENSE" src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" />
   </a>
@@ -16,9 +15,6 @@
     色見本です。気に入った色を追加しています。  
   </p>
 </div>
-
-# ColorPalette
-Link: [https://tomsuzuki.github.io/ColorPalette/](https://tomsuzuki.github.io/ColorPalette/)
   
 ## 色見本  
 個人的に使う色を置いています。
