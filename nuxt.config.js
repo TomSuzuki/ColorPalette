@@ -24,6 +24,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/style.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -55,10 +56,4 @@ export default {
     dir: "ColorPalette",
     crawler: false
   }
-}
-
-module.exports = {
-  css: [
-    '@/assets/css/style.css'
-  ],
 }

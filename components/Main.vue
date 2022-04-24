@@ -2,13 +2,14 @@
 
 <template>
   <div class="index">
-    <Title/>
+    <Title />
+    <Pallet />
+    <Foot />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main'
-}
+  name: "Main",
+};
 </script>
-
