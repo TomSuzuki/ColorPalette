@@ -1,5 +1,5 @@
 {
-    "simple": [
+    "color": [
         {
             "name": "RED",
             "sub_name": "赤",
@@ -64,9 +64,7 @@
                 "#EDEDED",
                 "#E7E7E7"
             ]
-        }
-    ],
-    "fantasy": [
+        },
         {
             "name": "MAGIC",
             "sub_name": "魔女のイメージ",
@@ -131,9 +129,7 @@
                 "#5642E2",
                 "#110200"
             ]
-        }
-    ],
-    "color set": [
+        },
         {
             "name": "???? 01",
             "sub_name": "誰だろう...",
@@ -185,9 +181,7 @@
                 "#ed9eed",
                 "#bf95bc"
             ]
-        }
-    ],
-    "season": [
+        },
         {
             "name": "AUTUMN",
             "sub_name": "秋色",
@@ -265,9 +259,7 @@
                 "#326495",
                 "#F6FFFF"
             ]
-        }
-    ],
-    "city": [
+        },
         {
             "name": "Tokyo @midnight",
             "sub_name": "夜も明るい",
@@ -306,9 +298,7 @@
                 "#FFF8DE",
                 "#FFFEEE"
             ]
-        }
-    ],
-    "food": [
+        },
         {
             "name": "MIKAN",
             "sub_name": "みかん色",
@@ -373,9 +363,7 @@
                 "#FFA332",
                 "#FF7888"
             ]
-        }
-    ],
-    "other": [
+        },
         {
             "name": "BUG",
             "sub_name": "画面がバグりました",

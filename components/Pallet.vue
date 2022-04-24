@@ -1,6 +1,14 @@
 <template>
   <div class="pallet">
-    {{ color }}
+    <ul v-for="c in color" :key="c">
+      <li>
+        <h3>{{ c.name }}</h3>
+        <h4>{{ c.sub_name }}</h4>
+        <ul v-for="rgb in c.color">
+          <li>{{ rgb }}</li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -11,7 +19,7 @@ export default {
   name: "Pallet",
   data() {
     return {
-      color: color,
+      color: color["color"],
     };
   },
 };
