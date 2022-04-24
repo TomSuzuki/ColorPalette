@@ -47,11 +47,18 @@ export default {
 
   // Router - "/my-nuxt-project/"
   router: {
-    base: 'ColorPalette'
+    base: '/ColorPalette/'
   },
 
   // Generate Config
   generate: {
-    dir: "ColorPalette"
+    dir: "ColorPalette",
+    crawler: false
   }
+}
+
+module.exports = {
+  css: [
+    '@/assets/css/style.css'
+  ],
 }
