@@ -23,6 +23,11 @@
 いろんなテストコードを詰め合わせているので可読性は...
 
 ## メモ
+### npm run generate
+```
+npm run generate
+```
+
 ### `ELIFECYCLE` エラー時
 `node_modules`を削除。
 ```
