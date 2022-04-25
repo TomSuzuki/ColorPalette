@@ -35,4 +35,4 @@ npm install
 ```
 
 ## テスト時
-[http://127.0.0.1:5500/ColorPalette/](http://127.0.0.1:5500/ColorPalette/)
+[http://127.0.0.1:5500](http://127.0.0.1:5500)
