@@ -48,7 +48,7 @@ export default {
 
   // Router - "/my-nuxt-project/"
   router: {
-    base: './'
+    base: '/ColorPalette/'
   },
 
   // Generate Config
