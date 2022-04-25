@@ -6,12 +6,14 @@
 </template>
 
 <script>
+import title from "@/assets/json/title.json";
+
 export default {
   name: "Title",
   data() {
     return {
-      pageTitle: "Color Pallet",
-      version: "ver 2.00",
+      pageTitle: title["title"],
+      version: title["version"],
     };
   },
 };
@@ -24,6 +26,7 @@ export default {
   margin-bottom: 1em;
   background-color: #111111;
   color: #efefef;
+  text-align: center;
 
   h1 {
     padding: 0 0 0.4em;

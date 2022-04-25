@@ -1,27 +1,26 @@
 <template>
   <div class="foot">
-    <h2>MEMO</h2>
-    <ul>
-      <li>個人的に使う色なので偏っています。</li>
-    </ul>
-    <h2>LICENSE</h2>
-    <ul>
-      <li>MIT</li>
-      <li>
-        GitHub:
-        <a href="https://github.com/TomSuzuki/ColorPalette"
-          >https://github.com/TomSuzuki/ColorPalette</a
-        >
-      </li>
-      <li>色の使用はご自由にどうぞ。</li>
-    </ul>
-    <p class="center">2019-2020 TomSuzuki</p>
+    <div v-for="f in foot" :key="f">
+      <h2>{{ f.title }}</h2>
+      <ul>
+        <li v-for="list in f.list" :key="list" v-html="list"></li>
+      </ul>
+    </div>
+    <p class="center">{{ copyright }}</p>
   </div>
 </template>
 
 <script>
+import foot from "@/assets/json/foot.json";
+
 export default {
   name: "Foot",
+  data() {
+    return {
+      foot: foot["foot"],
+      copyright: foot["copyright"],
+    };
+  },
 };
 </script>
 
