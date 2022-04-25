@@ -36,3 +36,21 @@ npm install
 
 ## テスト時
 [http://127.0.0.1:5500](http://127.0.0.1:5500)
+
+## deploy
+```
+npm run generate
+```
+コミット後
+```
+npm run deploy
+```
+
+## memo
+```
+npm install push-dir --save-dev
+```
+`package.json`に追加
+```
+"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+```

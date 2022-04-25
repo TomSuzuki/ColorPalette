@@ -53,7 +53,7 @@ export default {
 
   // Generate Config
   generate: {
-    dir: "docs",
+    dir: "ColorPalette",
     crawler: false
   }
 }
