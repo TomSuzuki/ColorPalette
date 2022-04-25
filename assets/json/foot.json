@@ -1,0 +1,19 @@
+{
+    "foot": [
+        {
+            "title": "MEMO",
+            "list": [
+                "個人的に使う色なので偏っています。"
+            ]
+        },
+        {
+            "title": "LICENSE",
+            "list": [
+                "MIT",
+                "GitHub: <a href='https://github.com/TomSuzuki/ColorPalette'>https://github.com/TomSuzuki/ColorPalette</a>",
+                "色の使用はご自由にどうぞ。"
+            ]
+        }
+    ],
+    "copyright": "2019-2022 TomSuzuki"
+}

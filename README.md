@@ -21,3 +21,18 @@
 
 ## ソースコード
 いろんなテストコードを詰め合わせているので可読性は...
+
+## メモ
+### npm run generate
+```
+npm run generate
+```
+
+### `ELIFECYCLE` エラー時
+`node_modules`を削除。
+```
+npm install
+```
+
+## テスト時
+[http://127.0.0.1:5500/ColorPalette/](http://127.0.0.1:5500/ColorPalette/)
