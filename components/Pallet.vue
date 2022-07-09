@@ -7,7 +7,12 @@
           <h4>{{ c.sub_name }}</h4>
         </div>
         <ul class="color-frame">
-          <li class="color" :style="{ background: rgb }" v-for="rgb in c.color">
+          <li
+            class="color"
+            :class="[text_color(rgb) ? 'text-black' : 'text-white']"
+            :style="{ background: rgb }"
+            v-for="rgb in c.color"
+          >
             {{ rgb }}
           </li>
         </ul>
@@ -25,6 +30,20 @@ export default {
     return {
       color: color["color"],
     };
+  },
+  methods: {
+    text_color: (rgb) => {
+      let r = parseInt("0x" + rgb.substr(1, 2), 16);
+      let g = parseInt("0x" + rgb.substr(3, 2), 16);
+      let b = parseInt("0x" + rgb.substr(5, 2), 16);
+      let bk = Math.sqrt(
+        Math.pow(r - 0, 2) + Math.pow(g - 0, 2) + Math.pow(b - 0, 2)
+      );
+      let wh = Math.sqrt(
+        Math.pow(r - 255, 2) + Math.pow(g - 255, 2) + Math.pow(b - 255, 2)
+      );
+      return bk > wh;
+    },
   },
 };
 </script>
@@ -108,6 +127,14 @@ export default {
     padding: 0.4em 0.75em;
     display: flex;
     align-items: center;
+  }
+
+  .text-black {
+    color: #111111;
+  }
+
+  .text-white {
+    color: #fafafa;
   }
 
   .color:last-child {
