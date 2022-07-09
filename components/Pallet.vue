@@ -2,7 +2,11 @@
   <div class="pallet">
     <ul class="colorFrames">
       <li class="color_outer" v-for="c in color" :key="c">
-        <div class="colorTitle" :style="{ background: c.key_color }">
+        <div
+          class="colorTitle"
+          :style="{ background: c.key_color }"
+          :class="[text_color(c.key_color) ? 'text-black' : 'text-white']"
+        >
           <h3>{{ c.name }}</h3>
           <h4>{{ c.sub_name }}</h4>
         </div>
