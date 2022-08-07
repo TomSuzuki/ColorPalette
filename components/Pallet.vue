@@ -26,14 +26,19 @@
 </template>
 
 <script>
-import color from "@/assets/json/color.json";
+const color_data = "https://tomsuzuki.github.io/color-data/color.json";
 
 export default {
   name: "Pallet",
   data() {
     return {
-      color: color["color"],
+      color: [],
     };
+  },
+  created: function () {
+    fetch(color_data)
+      .then((response) => response.json())
+      .then((data) => (this.color = data["color"]));
   },
   methods: {
     text_color: (rgb) => {
